@@ -5,7 +5,9 @@
       flex-wrap: wrap;
       flex-direction: row;
       gap: 65px;
-      .horarios {
+      .horarios,
+      .ubicacion,
+      .redes {
         display: flex;
         align-items: flex-start;
       }
@@ -51,7 +53,10 @@
         display: flex;
         flex-direction: row;
         gap: 55px;
-        .nosotros {
+        .nosotros,
+        .ubicacion,
+        .redes,
+        .horarios {
           padding-top: 5%;
           padding-bottom: 5%;
           display: flex;
