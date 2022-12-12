@@ -1,0 +1,51 @@
+.container {
+  width: 98%;
+  margin: 0% auto;
+
+  header {
+    display: flex;
+    flex-direction: column;
+    background-color: $cool-blackround;
+    font-weight: bold;
+    padding: 25px;
+    font-weight: bold;
+    box-shadow: $box-shadow-anashei;
+    border-radius: $border-radius-anashei;
+    border: 12px hidden $cool-white;
+    #header_logo {
+      display: flex;
+      padding: 15px;
+      gap: 15px;
+      animation: myAnim 2s ease 0s 1 normal forwards;
+    }
+    .logo_name {
+      justify-content: center;
+    }
+    #header_icon {
+      align-items: center;
+      width: 55px;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style-type: none;
+      justify-content: space-evenly;
+      padding: 0%;
+      gap: 13px;
+      li {
+        a {
+          text-decoration: none;
+          color: $cool-black;
+          border: 1px solid $cool-black;
+          padding: 3px;
+          background-color: $cool-white;
+          border-radius: 5px;
+          align-items: center;
+          box-shadow: $box-shadow-anashei;
+          border-radius: $border-radius-anashei;
+          border: 6px hidden $cool-white;
+        }
+      }
+    }
+  }
+}

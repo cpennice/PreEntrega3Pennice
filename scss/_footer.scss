@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  height: 2em;
+  position: static;
+  background-color: $cool-blackround;
+  color: $cool-white;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+
+  .footer_link {
+    padding: 0.2rem;
+  }
+}

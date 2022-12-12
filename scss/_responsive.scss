@@ -1,0 +1,113 @@
+@media (min-width: 768px) {
+  .container {
+    .contacto {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 65px;
+      .horarios {
+        display: flex;
+        align-items: flex-start;
+      }
+    }
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+  .container {
+    width: 90%;
+
+    header {
+      flex-direction: row;
+      display: flex;
+      justify-content: space-between;
+      padding: 25px;
+      font-weight: bold;
+
+      nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 1%;
+      }
+    }
+    .index {
+      display: flex;
+      align-items: center;
+
+      #main_image {
+        height: 500px;
+        width: 800px;
+      }
+    }
+    .main_info {
+      padding: 1%;
+      .contacto {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        gap: 55px;
+        .nosotros {
+          padding-top: 5%;
+          padding-bottom: 5%;
+          display: flex;
+          flex-direction: row;
+          gap: 55px;
+          #sobre_nosotros {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            gap: 55px;
+          }
+          #nosotros_side {
+            align-items: center;
+            padding: 15px;
+          }
+        }
+      }
+    }
+    .productos {
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .producto_card {
+        width: 450px;
+        height: 150px;
+
+        #producto_img {
+          width: 150px;
+        }
+        .buy_but:hover {
+          background-color: $cool-blackround-white;
+          color: $cool-black;
+          border: 3px solid $cool-black;
+          cursor: pointer;
+          transition: 0.2s;
+        }
+      }
+    }
+
+    .producto_card:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+    li {
+      a:hover {
+        color: $cool-blue;
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .producto_card {
+    width: 600px;
+    height: 150px;
+  }
+}
