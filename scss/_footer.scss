@@ -1,17 +1,15 @@
 .footer {
-  margin-top: 50px;
   position: fixed;
-  bottom: 0;
-  height: 2em;
   position: static;
-  background-color: $cool-blackround;
-  color: $cool-white;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
   display: flex;
   gap: 15px;
   justify-content: center;
+  border-radius: 15px;
 
   .footer_link {
     padding: 0.2rem;
-    width: 30px;
+    width: 35px;
   }
 }

@@ -1,115 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Nosotros - SaM</title>
   </head>
-  <body style="background-image: url(../img/nosotros_background.jpg)">
-    <div class="container">
-      <header>
-        <div id="header_logo">
-          <div style="display: flex">
-            <img src="../img/header_logo.svg" alt="" id="header_icon" />
-          </div>
-          <div><h2 class="logo_name">Soluciones a Medidas</h2></div>
+
+  <body class="container bg-image-nosotros">
+    <header>
+      <div id="header_logo">
+        <div style="display: flex">
+          <img src="../img/header_logo.svg" alt="" id="header_icon" />
         </div>
-        <nav>
-          <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="nostros.html" style="color: blue">Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="logIn.html">Iniciar Sesión</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <div class="main_info nosotros">
-          <h1>Sobre nosotros.</h1>
-          <div id="sobre_nosotros">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-            molestiae minima, incidunt unde fugit quia adipisci fuga voluptas,
-            deserunt dicta nulla pariatur dolores nesciunt architecto, sint
-            veniam maxime impedit consectetur illo. Placeat temporibus commodi
-            fuga eius at debitis. Dignissimos explicabo excepturi eveniet quam
-            modi enim sit magnam inventore, aliquam quibusdam, obcaecati quo
-            aperiam non! Voluptatem nobis magnam illo harum consequuntur dolore
-            illum delectus aspernatur enim magni repudiandae nostrum sit,
-            reprehenderit vitae molestiae. Nesciunt sunt laborum illum amet?
-            <br />
-            <br />
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-            molestiae minima, incidunt unde fugit quia adipisci fuga voluptas,
-            deserunt dicta nulla pariatur dolores nesciunt architecto, sint
-            veniam maxime impedit consectetur illo. Placeat temporibus commodi
-            fuga eius at debitis. Dignissimos explicabo excepturi eveniet quam
-            modi enim sit magnam inventore, aliquam quibusdam, obcaecati quo
-            aperiam non! Voluptatem nobis magnam illo harum consequuntur dolore
-            illum delectus aspernatur enim magni repudiandae nostrum sit,
-            reprehenderit vitae molestiae. Nesciunt sunt laborum illum amet?
-            <div id="nosotros_side">
-              <div class="user_nosotros">
-                <div class="dueño_img">
-                  <img
-                    src="../img/user_nosotros.svg"
-                    alt=""
-                    style="width: 140px"
-                  />
-                </div>
-                <h3 class="user_nosotros-name">owner</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatem suscipit, laboriosam rerum asperiores perspiciatis
-                  magnam fugiat aperiam, facilis rem nostrum saepe reprehenderit
-                  illo distinctio. Praesentium vel nam recusandae magnam
-                  officiis.
-                </p>
-              </div>
-            </div>
-            <div id="nosotros_side">
-              <div class="user_nosotros">
-                <div class="dueño_img">
-                  <img
-                    src="../img/user_nosotros.svg"
-                    alt=""
-                    style="width: 140px"
-                  />
-                </div>
-                <h3 class="user_nosotros-name">owner</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatem suscipit, laboriosam rerum asperiores perspiciatis
-                  magnam fugiat aperiam, facilis rem nostrum saepe reprehenderit
-                  illo distinctio. Praesentium vel nam recusandae magnam
-                  officiis.
-                </p>
-              </div>
-            </div>
+        <div class="logo_name">Soluciones a Medidas</div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="logIn.html">Iniciar Sesión</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </main>
-      <footer>
-        <div class="footer">
-          <div class="footer_link">
-            <a href="#"> <img src="../img/instagram.svg" /></a>
+      </nav>
+    </header>
+    <section class="text-center mt-5 bg-dark bg-opacity-50">
+      <h1>Sobre nosotros.</h1>
+    </section>
+
+    <main class="main_info nosotros">
+      <div id="sobre_nosotros">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
+          molestiae minima, incidunt unde fugit quia adipisci fuga voluptas,
+          deserunt dicta nulla pariatur dolores nesciunt architecto, sint veniam
+          maxime impedit consectetur illo. Placeat temporibus commodi fuga eius
+          at debitis. Dignissimos explicabo excepturi eveniet quam modi enim sit
+          magnam inventore, aliquam quibusdam, obcaecati quo aperiam non!
+          Voluptatem nobis magnam illo harum consequuntur dolore illum delectus
+          aspernatur enim magni repudiandae nostrum sit, reprehenderit vitae
+          molestiae. Nesciunt sunt laborum illum amet?
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
+          molestiae minima, incidunt unde fugit quia adipisci fuga voluptas,
+          deserunt dicta nulla pariatur dolores nesciunt architecto, sint veniam
+          maxime impedit consectetur illo. Placeat temporibus commodi fuga eius
+          at debitis. Dignissimos explicabo excepturi eveniet quam modi enim sit
+          magnam inventore, aliquam quibusdam, obcaecati quo aperiam non!
+          Voluptatem nobis magnam illo harum consequuntur dolore illum delectus
+          aspernatur enim magni repudiandae nostrum sit, reprehenderit vitae
+          molestiae. Nesciunt sunt laborum illum amet?
+        </p>
+      </div>
+      <div id="nosotros_side">
+        <div class="user_nosotros">
+          <div class="dueño_img">
+            <img src="../img/user_nosotros.svg" alt="" style="width: 140px" />
           </div>
-          <div class="footer_link">
-            <a href="#"> <img src="../img/facebook.svg" /></a>
-          </div>
-          <div class="footer_link">
-            <a href="#"> <img src="../img/wsp.svg" /></a>
-          </div>
+          <h2 class="user_nosotros-name">owner</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            suscipit, laboriosam rerum asperiores perspiciatis magnam fugiat
+            aperiam, facilis rem nostrum saepe reprehenderit illo distinctio.
+            Praesentium vel nam recusandae magnam officiis.
+          </p>
         </div>
-      </footer>
-    </div>
+      </div>
+      <div id="nosotros_side">
+        <div class="user_nosotros">
+          <div class="dueño_img">
+            <img src="../img/user_nosotros.svg" alt="" style="width: 140px" />
+          </div>
+          <h2 class="user_nosotros-name">owner</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            suscipit, laboriosam rerum asperiores perspiciatis magnam fugiat
+            aperiam, facilis rem nostrum saepe reprehenderit illo distinctio.
+            Praesentium vel nam recusandae magnam officiis.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer mt-5 py-3">
+      <div class="footer_link">
+        <a href="#"> <img src="../img/instagram.svg" /></a>
+      </div>
+      <div class="footer_link">
+        <a href="#"> <img src="../img/facebook.svg" /></a>
+      </div>
+      <div class="footer_link">
+        <a href="#"> <img src="../img/wsp.svg" /></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
