@@ -1,11 +1,11 @@
 .main_info {
-  background-color: $cool-blackround;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   margin-top: 15px;
   padding: 5px;
   gap: 15px;
-  box-shadow: $box-shadow-anashei;
+  box-shadow: 0px 11px 20px -3px rgba(0, 0, 0, 0.8);
   border-radius: 52px 52px 52px 52px;
   border: 12px hidden #ffffff;
 
@@ -13,24 +13,24 @@
 
   .producto_card {
     display: flex;
-    background-color: $cool-white;
-    color: $cool-black;
+    background-color: white;
+    color: black;
     padding: 5px;
-    font-size: 16px;
+    font-size: 15px;
     gap: 15px;
     border-radius: 52px 52px 52px 52px;
     border: 12px hidden #ffffff;
 
     #producto_img {
       width: 100px;
-      box-shadow: $box-shadow-anashei;
+      box-shadow: 0px 11px 20px -3px rgba(0, 0, 0, 0.8);
       border-radius: 52px 52px 52px 52px;
       border: 12px hidden #ffffff;
     }
     .buy_but {
-      background-color: $cool-black;
+      background-color: black;
       border: none;
-      color: $cool-white;
+      color: white;
       padding: 10px;
     }
   }
@@ -49,8 +49,34 @@
   }
 
   /* contacto */
+  .redes_contacto {
+    display: flex;
+  }
+  .redes_img {
+    width: 25px;
+  }
+
+  .info_contacto {
+    font-size: 15px;
+    color: $cool-red;
+  }
 
   /* login */
+
+  .log_input {
+    display: inline-block;
+    height: 25px;
+  }
+
+  .login_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .submit_button {
+    margin-top: 20px;
+    width: 150px;
+  }
 
   input:invalid {
     border-color: $cool-red;

@@ -1,16 +1,14 @@
 @media (min-width: 768px) {
-  .container {
-    .contacto {
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 65px;
+    .horarios,
+    .ubicacion,
+    .redes {
       display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      gap: 65px;
-      .horarios,
-      .ubicacion,
-      .redes {
-        display: flex;
-        align-items: flex-start;
-      }
+      align-items: flex-start;
     }
   }
 }
@@ -20,14 +18,12 @@
 @media (min-width: 1024px) {
   .container {
     width: 80%;
-
     header {
       flex-direction: row;
       display: flex;
       justify-content: space-between;
       padding: 25px;
       font-weight: bold;
-
       nav {
         display: flex;
         justify-content: flex-end;
@@ -35,84 +31,74 @@
         padding: 1%;
       }
     }
+    .main_info {
+      padding: 3%;
+      .main_text {
+        width: 80%;
+      }
+      #sobre_nosotros {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 55px;
+      }
+      #nosotros_side {
+        align-items: center;
+        padding: 15px;
+      }
+    }
     .index {
       display: flex;
       align-items: center;
-
       #main_image {
         height: 500px;
         width: 800px;
       }
     }
-    .main_info {
-      padding: 3%;
-      .contacto {
-        padding-top: 5%;
-        padding-bottom: 5%;
-        align-items: flex-start;
-        display: flex;
-        flex-direction: row;
-        gap: 55px;
-        .nosotros,
-        .ubicacion,
-        .redes,
-        .horarios {
-          padding-top: 5%;
-          padding-bottom: 5%;
-          display: flex;
-          flex-direction: row;
-          gap: 55px;
-          #sobre_nosotros {
-            align-items: center;
-            display: flex;
-            flex-direction: row;
-            gap: 55px;
-          }
-          #nosotros_side {
-            align-items: center;
-            padding: 15px;
-          }
-        }
+  }
+  .productos {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .producto_card {
+      width: 440px;
+      height: 150px;
+      #producto_img {
+        width: 150px;
+      }
+      .buy_but:hover {
+        background-color: white;
+        color: black;
+        border: 3px solid black;
+        cursor: pointer;
+        transition: 0.2s;
       }
     }
-    .productos {
-      justify-content: center;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-
-      .producto_card {
-        width: 450px;
-        height: 150px;
-
-        #producto_img {
-          width: 150px;
-        }
-        .buy_but:hover {
-          background-color: $cool-blackround-white;
-          color: $cool-black;
-          border: 3px solid $cool-black;
-          cursor: pointer;
-          transition: 0.2s;
-        }
-      }
-    }
-
-    .producto_card:hover {
-      transform: scale(1.1);
-      transition: 0.5s;
-    }
-    li {
-      a:hover {
-        color: $cool-blue;
-      }
+  }
+  .producto_card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  li {
+    a:hover {
+      color: blue;
     }
   }
 }
 
 @media (min-width: 1920px) {
-  .producto_card {
-    width: 600px;
-    height: 150px;
+  .productos {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .producto_card {
+      width: 600px;
+      height: 150px;
+      #producto_img {
+        width: 150px;
+      }
+    }
   }
 }

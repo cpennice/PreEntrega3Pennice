@@ -70,16 +70,17 @@
           <form action="#" id="form">
             <div class="log_field">
               <input
+                class="log_input"
                 type="email"
                 name="correo"
                 id="correo"
                 placeholder="Correo"
                 required
-                style="display: inline-block; height: 20px"
               />
             </div>
             <div class="log_field">
               <input
+                class="log_input"
                 type="password"
                 name="contraseña"
                 id="contraseña"
@@ -87,17 +88,8 @@
                 required
               />
             </div>
-            <div
-              style="display: flex; flex-direction: column; align-items: center"
-              class="login_buttons"
-            >
-              <button
-                type="submit"
-                id="submit_but"
-                style="margin-top: 20px; width: 150px"
-              >
-                Continuar
-              </button>
+            <div class="login_buttons">
+              <button class="submit_button" type="submit">Continuar</button>
               <a href="#" class="login_create_acc">Crear Cuenta</a>
               <a href="#" class="login_help">Necesito ayuda</a>
             </div>
@@ -107,13 +99,13 @@
     </main>
     <footer class="footer mt-5 py-3">
       <div class="footer_link">
-        <a href="#"> <img src="../img/instagram.svg" /></a>
+        <a href="#"> <img src="../img/instagram.svg" alt="icon_instagram" /></a>
       </div>
       <div class="footer_link">
-        <a href="#"> <img src="../img/facebook.svg" /></a>
+        <a href="#"> <img src="../img/facebook.svg" alt="icon_facebook" /></a>
       </div>
       <div class="footer_link">
-        <a href="#"> <img src="../img/wsp.svg" /></a>
+        <a href="#"> <img src="../img/wsp.svg" alt="icon_whatsapp" /></a>
       </div>
     </footer>
 

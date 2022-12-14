@@ -2,53 +2,48 @@
   color: blue !important;
 }
 
-.container {
-  width: 98%;
-  margin: 0% auto;
-
-  header {
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  padding: 25px;
+  font-weight: bold;
+  box-shadow: 0px 11px 20px -3px rgba(0, 0, 0, 0.8);
+  border-radius: 52px 52px 52px 52px;
+  border: 12px hidden #ffffff;
+  #header_logo {
     display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    padding: 25px;
-    font-weight: bold;
-    box-shadow: 0px 11px 20px -3px rgba(0, 0, 0, 0.8);
-    border-radius: 52px 52px 52px 52px;
-    border: 12px hidden #ffffff;
-    #header_logo {
-      display: flex;
-      padding: 15px;
-      gap: 15px;
-      animation: myAnim 2s ease 0s 1 normal forwards;
-    }
-    .logo_name {
-      justify-content: center;
-    }
-    #header_icon {
-      align-items: center;
-      width: 55px;
-    }
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-      list-style-type: none;
-      justify-content: space-evenly;
-      padding: 0%;
-      gap: 13px;
-      li {
-        a {
-          text-decoration: none;
-          color: black;
-          border: 1px solid black;
-          padding: 3px;
-          background-color: white;
-          border-radius: 5px;
-          align-items: center;
-          box-shadow: 0px 11px 20px -3px rgba(28, 200, 22, 0.8);
-          border-radius: 52px 52px 52px 52px;
-          border: 6px hidden #ffffff;
-        }
+    padding: 15px;
+    gap: 15px;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+  }
+  .logo_name {
+    justify-content: center;
+  }
+  #header_icon {
+    align-items: center;
+    width: 55px;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0%;
+    gap: 13px;
+    li {
+      a {
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        padding: 3px;
+        background-color: white;
+        border-radius: 5px;
+        align-items: center;
+        box-shadow: 0px 11px 20px -3px rgba(28, 200, 22, 0.8);
+        border-radius: 52px 52px 52px 52px;
+        border: 6px hidden #ffffff;
       }
     }
   }
